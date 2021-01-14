@@ -1,0 +1,13 @@
+button {
+  color: $dark;
+  display: flex;
+  @media(max-width: 789px) {
+    display: grid;
+  }
+}
+
+span {
+  @media(max-width: 789px) {
+    display: grid;
+  }
+}

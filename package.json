@@ -1,0 +1,44 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "gulp template with scss",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1"
+  },
+  "scripts": {
+    "build": "gulp styles",
+    "start": "gulp server"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sezardino/gulp-template.git"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "scss"
+  ],
+  "author": "Edward Arechwa <e.arechwa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sezardino/gulp-template/issues"
+  },
+  "homepage": "https://github.com/sezardino/gulp-template#readme"
+}
